@@ -3,7 +3,7 @@ import './App.css'
 
 let quizData = require('./quiz_data.json')
 
-class App extends Component {
+class Quiz extends Component {
   render() {
     return (
       <div />
@@ -11,4 +11,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default Quiz
