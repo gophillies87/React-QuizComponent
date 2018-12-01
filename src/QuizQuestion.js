@@ -5,7 +5,9 @@ let quizData = require('./quiz_data.json')
 
 class QuizQuestion extends Component {
   handleClick(buttonText) {
-
+	if (buttonText === this.props.quiz_question.answer) {
+		this.props.showNextQuestionHandler()
+    }
   }
   render() {
     return (
