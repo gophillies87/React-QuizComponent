@@ -3,16 +3,21 @@ import './App.css'
 
 let quizData = require('./quiz_data.json')
 
-class Quiz extends Component {
-	constructor(props) {
-		super(props)
-		this.state = { quiz_position: 1}
-}
+class QuizQuestion extends Component
   render() {
     return (
-      <div><div className="QuizQuestion">{quizData.quiz_questions[0].instruction_text}</div></div>
+      <main>
+	     <section>
+	        <p>// instruction text goes here</p>
+	     </section>
+	     <section className="buttons">
+	        <ul>
+	          //quiz question button logic goes here
+	        </ul>
+	      </section>
+      </main>
     )
   }
 }
 
-export default Quiz
+export default QuizQuestion
