@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import './App.css'
+
 
 let quizData = require('./quiz_data.json')
 
-class QuizQuestion extends Component
+class QuizQuestion extends Component {
   render() {
     return (
       <main>
